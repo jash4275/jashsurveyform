@@ -1,0 +1,19 @@
+button{
+    background-color: cadetblue;
+    border-radius:50px;
+    color: aliceblue;
+}
+fieldset{
+    border: 2px solid;
+    text-align: center;
+    background-color: antiquewhite;
+width: 30%;
+}
+legend{
+    text-align: center;
+    color:cornflowerblue;
+}
+button:hover{
+    background-color: cornflowerblue;
+    color: azure;
+}
