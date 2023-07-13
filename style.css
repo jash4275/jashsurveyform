@@ -1,0 +1,35 @@
+.profile-card{
+    width:500px;
+    padding:20px;
+    border:2px solid grey;
+    margin:10px auto;
+    font-size: 20px;
+    background-color: antiquewhite;
+   
+}
+img{
+    width:25%;
+    border-radius: 50%;
+border: 2px solid brown;
+}
+h2,p{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.profile-image{
+    width: 100%;
+    border:3px solid black;
+    
+}
+@media screen and (max-width: 700px){
+    .profile-card{
+        max-width:400px
+    }
+
+    
+}
+.profile-card:hover{
+    opacity:1;
+    color:blue;
+    background-color: chocolate;
+}

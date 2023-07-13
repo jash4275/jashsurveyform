@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Form</title>
+   
+</head>
+<body>
+    <form action="/submit-form" method="post" target="_blank">
+        <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" placeholder="raj"><br><br>
+        <label for="email">Email id</label><br>
+        <input type="email" id="email" placeholder="demo@gmail.com" required><br><br>
+        <label for="password">Password</label>
+    <input type="password" id="password" required><br><br>
+    <label for="profile-picture">Profile Picture</label>
+    <input type="file" id="profile-picture" required><br><br>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" class="dob" required><br><br>
+    <label for="phone">Mobile Number:</label>
+    <input type="number" class="phone" placeholder="276477629" required><br>
+</fieldset>
+
+<fieldset>
+    <legend>Prefrences</legend>
+    <label for="color">Favorite Color:</label>
+    <input type="color" id="color"><br><br>
+    <label for="fruit"></label>
+    <select id="fruit" multiple>
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="orange">Orange</option>
+   
+    </select><br><br>
+    <label for="comments">Comments</label>
+    <textarea id="comments" rows="3" cols="40"
+    placeholder="Enter your comments"></textarea><br><br>
+<label for="checkbox">
+    <input type="checkbox" value="yes">
+    Subscribe to newsletter
+</label><br><br>
+<label for="gender">
+    <input type="radio" name="gender" value="male">
+    male
+</label>
+<label for="gender">
+    <input type="radio" name="gender" value="female">
+    female
+</label>
+<label for="gender">
+    <input type="radio" name="gender" value="other">
+    other
+</label><br><br>
+<label for="skills">Skills:</label>
+<input type="text" id="skills" list="skills-list" required>
+<datalist id="skills-list">
+    <option value="HTML"></option>
+    <option value="CSS"></option>
+        <option value="Javascript"></option>
+        <option value="Python"></option>
+    
+</datalist>
+</fieldset>
+</form>
+</body>
+</html>
